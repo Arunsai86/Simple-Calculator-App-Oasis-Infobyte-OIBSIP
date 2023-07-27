@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+}
+
+.app-container {
+    background-image: linear-gradient(to Top, #b5f4f4, #04e5df);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Bree Serif";
+    color: #0415c6;
+    margin-bottom: 15px;
+}
+
+.calculator-container {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #3a4452;
+}
+
+.app-container form div input {
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    margin: 5px;
+    box-shadow: 1px 4px 16px 1px #000000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#resultContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+form #resultContainer input {
+    flex-grow: 1;
+    box-shadow: none;
+    text-align: right;
+    font-size: 40px;
+}
+
+form input#eqaul {
+    width: 136px;
+    color: yellow;
+}
+
+form div input.operator {
+    color: #33ddff;
+}
